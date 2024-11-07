@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+
+        <nav class="navbar">
+            <ul>
+              <li><a href="EVENT REG(3).HTML" class="contact-btn">CONTACT US</a></li>
+            </ul>
+          </nav>
+      
+
+    <div class="container">
+        <h1>Event Registration Form</h1>
+        <form id="registration-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="xxxxxx" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="kiran@gmail.com" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+               <input type="tel" id="phone" name="phone" placeholder="000-000-0000" pattern="[0-9]{1,10}" >
+            <div class="form-group">
+                <label for="event">Event:</label>
+                <select id="event" name="event" required>
+                    <option value="">Select Event</option>
+                    <option value="event1">Event 1</option>
+                    <option value="event2">Event 2</option>
+                    <option value="event3">Event 3</option>
+                    <option value="event4">Event 4</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+             
+            <div class="button">
+            <a href="images/10.jpg" class="submit-btn"> REGISTER NOW</a>
+            </div>
+        
+        </form>
+        <script src="p.js"></script>
+    
+</body>
+</html>
+

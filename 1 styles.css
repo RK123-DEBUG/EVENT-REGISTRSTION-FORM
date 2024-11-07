@@ -1,0 +1,91 @@
+
+
+.join-btn {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: goldenrod;
+	color: black;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+.join-btn:hover {
+	background-color: goldenrod;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(images/4.jpg);
+	background-size: cover;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-image: url(images/2.jpg);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: goldenrod;
+    
+}
+
+.events {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.event {
+    flex-basis: 30%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.tech-event {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('tech-background.jpg');
+    background-size: cover;
+}
+
+.music-event {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('music-background.jpg');
+    background-size: cover;
+}
+
+.charity-event {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('charity-background.jpg');
+    background-size: cover;
+	
+}
+
+.event h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+form {
+    margin-top: 40px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.nightparty-event{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('charity-background.jpg');
+    background-size: cover;
+
+}
